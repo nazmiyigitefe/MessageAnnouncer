@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net462</TargetFramework>
+        <TargetFramework>net461</TargetFramework>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
@@ -22,7 +22,7 @@
         <PackageLicenseExpression>WTFPL</PackageLicenseExpression> <!-- see https://spdx.org/licenses/ -->
         <PackageAuthor>Charterino</PackageAuthor>
         <PackageTags>openmod openmod-plugin openmod-unturned unturned</PackageTags>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <GenerateNugetPackage>true</GenerateNugetPackage>
     </PropertyGroup>
