@@ -7,6 +7,7 @@ using Cysharp.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using OpenMod.API.Plugins;
+using OpenMod.UnityEngine.Extensions;
 using OpenMod.Unturned.Plugins;
 using SDG.Unturned;
 using UnityEngine;
@@ -52,7 +53,7 @@ namespace ChatAnnoyer
                     if (Level.isLoaded)
                     {
                         await UniTask.SwitchToMainThread();
-                        ChatManager.serverSendMessage(m_Filler.FillMessage(text), ColourTranslator.GetColourFromName(colour, Color.white), null, null, EChatMode.SAY, image_url, true);
+                        ChatManager.serverSendMessage(m_Filler.FillMessage(text), ColorTranslator.FromHtml(colour).ToUnityColor(), null, null, EChatMode.SAY, image_url, true);
                         await UniTask.SwitchToThreadPool();
                     }
                     await Task.Delay(m_Configuration.GetValue<int>("seconds_between_messages") * 1000);
