@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net462</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OpenMod.Core" Version="3.0.24" />
+      <PackageReference Include="OpenMod.UnityEngine" Version="3.0.24" />
+      <PackageReference Include="OpenMod.Unturned" Version="3.0.24" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="config.yaml" />
+      <EmbeddedResource Include="config.yaml" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <PackageId>Charterino.ChatAnnoyer</PackageId> <!-- must be unique, should be same as your plugin ID -->
+        <PackageDescription>A MOTD and broadcasting plugin for OpenMod</PackageDescription>
+        <PackageLicenseExpression>WTFPL</PackageLicenseExpression> <!-- see https://spdx.org/licenses/ -->
+        <PackageAuthor>Charterino</PackageAuthor>
+        <PackageTags>openmod openmod-plugin openmod-unturned unturned</PackageTags>
+        <Version>1.0.0</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateNugetPackage>true</GenerateNugetPackage>
+    </PropertyGroup>
+</Project>
