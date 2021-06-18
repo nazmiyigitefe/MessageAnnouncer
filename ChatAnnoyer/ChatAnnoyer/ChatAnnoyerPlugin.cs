@@ -11,6 +11,7 @@ using OpenMod.UnityEngine.Extensions;
 using OpenMod.Unturned.Plugins;
 using SDG.Unturned;
 using UnityEngine;
+using Action = System.Action;
 using Color = UnityEngine.Color;
 
 [assembly: PluginMetadata("Charterino.ChatAnnoyer")]
@@ -31,7 +32,7 @@ namespace ChatAnnoyer
 
         protected override async UniTask OnLoadAsync()
         {
-            await Task.Run(() => Annoyer().WithCancellation(m_CancellationTokenSource.Token));
+            await Task.Run(new Action(() => Annoyer()), m_CancellationTokenSource.Token);
         }
 
         protected override UniTask OnUnloadAsync()

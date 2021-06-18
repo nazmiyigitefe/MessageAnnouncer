@@ -6,9 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="OpenMod.Core" Version="3.0.24" />
-      <PackageReference Include="OpenMod.UnityEngine" Version="3.0.24" />
-      <PackageReference Include="OpenMod.Unturned" Version="3.0.24" />
+      <PackageReference Include="OpenMod.Core" Version="3.0.34" />
+      <PackageReference Include="OpenMod.UnityEngine" Version="3.0.34" />
+      <PackageReference Include="OpenMod.Unturned" Version="3.0.34" />
     </ItemGroup>
 
     <ItemGroup>
