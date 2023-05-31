@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: '2.0.0 (SemVer: https://semver.org)'
+        description: '2.0.1 (SemVer: https://semver.org)'
         required: true
 jobs:
   deploy:
