@@ -21,7 +21,7 @@
         <PackageId>Nuage.MessageAnnouncer</PackageId>
         <PackageDescription>A MOTD and broadcasting plugin for OpenMod</PackageDescription>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-        <PackageAuthor>Nuage</PackageAuthor>
+        <Authors>Nuage</Authors>
         <PackageTags>openmod openmod-plugin openmod-unturned unturned</PackageTags>
         <Version>2.0.1</Version>
         <PackageVersion>2.0.1</PackageVersion>
