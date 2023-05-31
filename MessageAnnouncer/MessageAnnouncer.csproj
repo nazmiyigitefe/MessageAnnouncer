@@ -20,13 +20,16 @@
     <PropertyGroup>
         <PackageId>Nuage.MessageAnnouncer</PackageId>
         <PackageDescription>A MOTD and broadcasting plugin for OpenMod</PackageDescription>
-        <PackageLicenseExpression>WTFPL</PackageLicenseExpression>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageAuthor>Nuage</PackageAuthor>
         <PackageTags>openmod openmod-plugin openmod-unturned unturned</PackageTags>
-        <Version>2.0.0</Version>
-        <PackageVersion>2.0.0</PackageVersion>
-        <InformationalVersion>2.0.0</InformationalVersion>
+        <Version>2.0.1</Version>
+        <PackageVersion>2.0.1</PackageVersion>
+        <InformationalVersion>2.0.1</InformationalVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <GenerateNugetPackage>true</GenerateNugetPackage>
+        <Copyright>Copyright © 2023 Nuage</Copyright>
+        <RepositoryUrl>https://github.com/nazmiyigitefe/MessageAnnouncer</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/nazmiyigitefe/MessageAnnouncer</PackageProjectUrl>
     </PropertyGroup>
 </Project>
