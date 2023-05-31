@@ -2,7 +2,7 @@
 A simple Message Announcer plugin for OpenMod.
 
 Features:
-  - Welcome messages (sent when a user connects)
+  - Welcome messages (MOTD)
   - Broadcasts (messages every X seconds)
   - Placeholder support ({ONLINEPLAYERS}, {SERVERNAME}, etc)
   - Colored messages support
