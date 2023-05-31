@@ -23,9 +23,9 @@
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <Authors>Nuage</Authors>
         <PackageTags>openmod openmod-plugin openmod-unturned unturned</PackageTags>
-        <Version>2.0.1</Version>
-        <PackageVersion>2.0.1</PackageVersion>
-        <InformationalVersion>2.0.1</InformationalVersion>
+        <Version>2.0.2</Version>
+        <PackageVersion>2.0.2</PackageVersion>
+        <InformationalVersion>2.0.2</InformationalVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <GenerateNugetPackage>true</GenerateNugetPackage>
         <Copyright>Copyright © 2023 Nuage</Copyright>
