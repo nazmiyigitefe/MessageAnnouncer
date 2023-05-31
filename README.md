@@ -1,6 +1,9 @@
 # Message Announcer
 A simple Message Announcer plugin for OpenMod.
 
+## Installation
+Run `openmod install Nuage.MessageAnnouncer` command from your console.
+
 ## Features:
   - Welcome messages (MOTD)
   - Broadcasts (messages every X seconds)
