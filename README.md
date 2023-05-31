@@ -1,26 +1,28 @@
-# ChatAnnoyer
-Annoy the chat for your players (It is beneficial for you)
+# Message Announcer
+A simple Message Announcer plugin for OpenMod.
 
 Features:
-  - MOTD messages (sent when a user connects)
+  - Welcome messages (sent when a user connects)
   - Broadcasts (messages every X seconds)
   - Placeholder support ({ONLINEPLAYERS}, {SERVERNAME}, etc)
-  - Coloured messages support
+  - Colored messages support
 
 Example configuration:
 ```
 seconds_between_messages: 30
 motd:
   - text: "Welcome to {SERVERNAME}! How are you doing today?"
-    colour: "#FFFFFF"
+    color: "#FFFFFF"
   - text: "There are {ONLINEPLAYERS}/{MAXPLAYERS} players."
-    colour: "#FFFFFF"
+    color: "#FFFFFF"
   - text: "Have fun!"
-    colour: "#FFFFFF"
+    color: "#FFFFFF"
 broadcasts:
   - text: "Welcome to {SERVERNAME}!"
-    colour: "#FFFFFF"
-    image_url: "http://stockimages.com/randompic.png"
+    color: "#FFFFFF"
+    imageURL: "https://static.wikia.nocookie.net/logopedia/images/4/4e/Unturned_%28Icon%29.jpg"
   - text: "Join our discord! /discord"
-    colour: "#FFFFFF"
+    color: "#FFFFFF"
 ```
+
+Forked from [Charterino/ChatAnnoyer](https://github.com/Charterino/ChatAnnoyer)
