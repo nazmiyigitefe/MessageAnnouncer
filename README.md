@@ -1,13 +1,13 @@
 # Message Announcer
 A simple Message Announcer plugin for OpenMod.
 
-##Features:
+## Features:
   - Welcome messages (MOTD)
   - Broadcasts (messages every X seconds)
   - Placeholder support ({ONLINEPLAYERS}, {SERVERNAME}, etc)
   - Colored messages support
 
-##Example configuration:
+## Example configuration:
 ```
 seconds_between_messages: 30
 motd:
