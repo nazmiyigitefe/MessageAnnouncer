@@ -11,7 +11,10 @@ using OpenMod.Unturned.Plugins;
 using SDG.Unturned;
 using Action = System.Action;
 
-[assembly: PluginMetadata("Nuage.MessageAnnouncer")]
+[assembly:
+    PluginMetadata("Nuage.MessageAnnouncer", Author = "Nuage",
+        Website = "https://github.com/nazmiyigitefe/MessageAnnouncer/")]
+
 namespace MessageAnnouncer
 {
     public class MessageAnnouncerPlugin : OpenModUnturnedPlugin
