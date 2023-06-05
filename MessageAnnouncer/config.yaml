@@ -1,4 +1,8 @@
-﻿seconds_between_messages: 30
+seconds_between_messages: 30
+database:
+  enabled: false
+  ConnectionStrings:
+    default: "Server=127.0.0.1; Database=openmod; Port=3306; User=root; Password=toor;"
 motd:
   - text: "Welcome to {SERVERNAME}! How are you doing today?"
     color: "#FFFFFF"
