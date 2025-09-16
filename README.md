@@ -1,4 +1,4 @@
-## Message Announcer
+# Message Announcer
 A simple Message Announcer plugin for OpenMod.
 
 ## Installation
